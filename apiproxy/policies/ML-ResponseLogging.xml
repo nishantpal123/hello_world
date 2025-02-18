@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging continueOnError="false" enabled="true" name="ML-ResponseLogging">
+  <DisplayName>ML-ResponseLogging</DisplayName>
+  <CloudLogging>
+    <LogName>projects/devapigeeproject-449204/logs/3456</LogName>
+    <Message contentType="application/json">
+    {
+    "statusCode": "{message.status.code}",
+    "url": "{baseUrl}"
+    }
+    </Message>
+  </CloudLogging>
+</MessageLogging>
